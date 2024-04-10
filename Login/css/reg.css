@@ -20,9 +20,9 @@
     border: 2px solid gray;
     display: flex;
     flex-direction: column;
+    margin-right: 15rem;
     padding: 1rem 1.5rem;
-    width: 300px;
-    margin-right: 25rem;
+    width: 500px;
 }
 .login_header{
     font-size: 1.2rem;
@@ -61,8 +61,8 @@ input[type="checkbox"]{
 }
 
 .login_container_btn a{
-    border: 2px solid  rgb(79, 79, 255);
     background-color:  rgb(79, 79, 255);
+    border: 2px solid  rgb(79, 79, 255);
     cursor: pointer;
     width: 60px;
     padding: 10px 20px;
@@ -88,4 +88,21 @@ input[type="checkbox"]{
     margin-left: 5px;
     color:  rgb(79, 79, 255);
     text-decoration: none;
+}
+
+label,.reg_btn{
+    color: #fff;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.name_input{
+    width: 100%;
+    column-gap: 2%;
+    display: flex;
+}
+
+.name_input input {
+    float: left;
+    width: 49%;
 }
